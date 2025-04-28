@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.logo i{
+    margin-top: 5px;
+    font-size: large;
+    color: white;
+}
+.p1{
+        margin-left: 10px;
+        margin-right: 2px;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100px;
+        font-style: normal;
+        color: white;
+      }
+ .p2{
+    
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  color: white;
+  } 
+
+  .header input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    border: 0.5px solid rgb(171, 168, 168);
+
+}
+.header ::placeholder{
+    padding: 15px;
+    font-size: medium;
+}
+.header button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(171, 168, 168);
+    color: black;
+    background-color: white;
+}
+.header button:hover{
+    background-color: rgb(235, 0, 0);
+    color: white;
+    border: none;
+}
+.icons{
+    margin-top: 20px;
+    margin-left: 250px; 
+    margin-bottom: 20px;
+    color: white; 
+    position: relative;
+    display: inline-block; 
+}
+.icons i{
+    padding: 20px;
+}
+
+.images video{
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;*/
+     width: 1300px;  
+    overflow: hidden;
+    height: 564px; 
+    border-radius: 20px; 
+    overflow: hidden;
+    object-fit: cover;   
+}
+.navibar{
+    justify-items: start;
+    width: 500px;
+}
+.images img{
+    border-radius: 20px;
+    width: 100%;
+
+}
+.apple{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.apple img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 450px;
+    transition: transform .2s;   
+}
+.apl:hover{
+    transform: scale(1.1);
+}
+.appleproducts{
+    display: flex;
+}
+.product1{
+    width: 295px;
+    height: 580px;
+    margin-top: 30px;
+    background-color: white;
+    margin-left: 30px;
+    padding: 20px;
+    border: 1px solid rgb(219, 213, 213);
+    border-radius: 10px;
+    transition: transform .2s;   
+}
+.product1:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid black;
+}
+.product1 img{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product1 h3{
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+.product1 p{
+    color: rgb(14, 13, 13);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product1 button{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: black;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+.product1 button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.product1 img{
+    height: 250px;
+    width: 200px;
+}
+.add{
+    margin-left: 110px;
+}
+.product1:hover{
+    transform: scale(1.1);
+}
+.wordings{
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+    color: white;
+}
+.wordings1{
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+.wordings1 img{
+    margin-bottom: 20px;
+    color: white;
+}
+.upbutton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color:black ;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    color: white;
+}
+.icons span{
+    position: relative;
+    top: -10px;
+    right: -5px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+.inputpopup{
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+    top: 100px;
+    left: 40%;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+.inputpopup button{
+    margin-top: 20px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.inputpopup input{
+    width: 200px ;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.signup{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.payment-section {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.payment-partners img, .app-links img {
+    height: 30px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
